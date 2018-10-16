@@ -3,7 +3,7 @@
 
 // CONFIG
 var siteName = "Kissasian"
-var rootUrl = 'http://kissasian.com'
+var rootUrl = 'http://kissasian.sh'
 var URL = window.location.origin
 // END CONFIG
 
@@ -17,17 +17,17 @@ $.getScript(rootUrl + "/Scripts/asp.js");
 // --------
 // HACKS
 var _0xea24 = ["\x6B\x72\x73\x6B\x31", "\x75\x68\x38\x61\x32\x44\x4E\x6A", "\x6B\x72\x73\x6B", "\x70\x73\x59\x73\x7A\x70\x33\x7A", "\x6B\x72\x73\x6B\x32", "\x7A\x75\x6E\x55\x76\x48\x33\x66"]; window[_0xea24[0]] = _0xea24[1]; window[_0xea24[2]] = _0xea24[3]; window[_0xea24[4]] = _0xea24[5]
-var jsS = [
-	"/Scripts/common.js",
-	"/Scripts/aes.js",
-	"/Scripts/sha256.min.js",
-	"/Scripts/kissenc.min.js?v=2"
-];
-console.log('Loading scripts ...');
-for (var i=0; i < jsS.length; i++){
-	console.log(jsS[i]);
-	$.getScript(rootUrl + jsS[i]);
-}
+// var jsS = [
+// 	"/Scripts/common.js",
+// 	"/Scripts/aes.js",
+// 	"/Scripts/sha256.min.js",
+// 	"/Scripts/kissenc.min.js?v=2"
+// ];
+// console.log('Loading scripts ...');
+// for (var i=0; i < jsS.length; i++){
+// 	console.log(jsS[i]);
+// 	$.getScript(rootUrl + jsS[i]);
+// }
 // END HACKS
 // ----------
 
